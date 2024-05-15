@@ -1,0 +1,4 @@
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketUI_last\obj\Debug\PocketUI_last.csproj.AssemblyReference.cache
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketUI_last\obj\Debug\UserControl1.g.cs
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketUI_last\obj\Debug\PocketUI_last_MarkupCompile.cache
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketUI_last\obj\Debug\PocketUI_last_MarkupCompile.lref

@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketUI_last_final\\PocketUI_last_final.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketLibrary_temp\\PocketLibrary_temp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketLibrary_temp\\PocketLibrary_temp.csproj",
+        "projectName": "PocketLibrary_temp",
+        "projectPath": "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketLibrary_temp\\PocketLibrary_temp.csproj",
+        "packagesPath": "C:\\Users\\nic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketLibrary_temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.25.3, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketUI_last_final\\PocketUI_last_final.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketUI_last_final\\PocketUI_last_final.csproj",
+        "projectName": "PocketUI_last_final",
+        "projectPath": "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketUI_last_final\\PocketUI_last_final.csproj",
+        "packagesPath": "C:\\Users\\nic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketUI_last_final\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketLibrary_temp\\PocketLibrary_temp.csproj": {
+                "projectPath": "C:\\Users\\nic\\Documents\\Uni\\Comp Science\\Personal Projects\\PocketSolution_Final\\PocketLibrary_temp\\PocketLibrary_temp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.59, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

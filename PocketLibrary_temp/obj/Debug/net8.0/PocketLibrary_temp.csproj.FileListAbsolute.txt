@@ -1,0 +1,15 @@
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\bin\Debug\net8.0\appsettings.json
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\bin\Debug\net8.0\PocketLibrary_temp.deps.json
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\bin\Debug\net8.0\PocketLibrary_temp.dll
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\bin\Debug\net8.0\PocketLibrary_temp.pdb
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.csproj.AssemblyReference.cache
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.Properties.Resources.resources
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.csproj.GenerateResource.cache
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.AssemblyInfoInputs.cache
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.AssemblyInfo.cs
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.csproj.CoreCompileInputs.cache
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.dll
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\refint\PocketLibrary_temp.dll
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\PocketLibrary_temp.pdb
+C:\Users\nic\Documents\Uni\Comp Science\Personal Projects\PocketSolution_Final\PocketLibrary_temp\obj\Debug\net8.0\ref\PocketLibrary_temp.dll
