@@ -55,3 +55,24 @@ Settings page for more sorting options! likeeeeee
 ## Requirements
 
 ## Installation
+
+Follow these steps to download and install Pocket App:
+
+1. **Download the Installer**
+
+   You can download the latest version of the installer from the following link:
+
+   [Download Pocket App Installer](https://github.com/nic-debugging/Pocket-App/releases/tag/tag)
+
+2. **Run the Installer**
+
+   - Navigate to the folder where the installer was downloaded (usually `Downloads`).
+   - Double-click on `Pocket_App_Installer.exe` to start the installation process.
+   - Follow the on-screen prompts to install Pocket App.
+
+3. **Launch Pocket App**
+
+   - After installation, you will find a `Pocket App` shortcut on your desktop.
+   - Double-click the shortcut to open Pocket App.
+
+
