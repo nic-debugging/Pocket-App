@@ -22,6 +22,7 @@ Sorting options
 Add and store tabs (URLs) by pasting the URL in text box on top, and click on the "Add tab" button. 
 
 You must click on the Apply button to refresh and displays the newly added tab/file.
+NOTE: Tab will only show after pasted URL disappears (takes a few seconds).
 
 #### Suitable URLs
 - **Standard HTTP/HTTPS URLs:** URLs that start with `http://` or `https://` and ending with a top-level-domain
@@ -64,7 +65,7 @@ Working offline mode
 
 ## Technologies used
 
-C#, MySQL, Windows Forms, Visual Studio
+C#, MySQL, Windows Forms, Visual Studio, AWS
 
 
 ## Installation
@@ -78,6 +79,8 @@ Follow these steps to download and install Pocket App:
 
 2. **Download Pocket Installer**
 
+   Download both the setup.exe and Pocket_Installer_10.msi file.
+
    You can download the latest version of the installer from the following link:
 
    [Download Pocket App Installer](https://github.com/nic-debugging/Pocket-App/releases/tag/v.2.0.0)
@@ -85,12 +88,12 @@ Follow these steps to download and install Pocket App:
 3. **Run the Installer**
 
    - Navigate to the folder where the installer was downloaded (usually `Downloads`).
-   - Double-click on `Pocket_Installer_5.exe` to start the installation process.
-   - Follow the on-screen prompts to install Pocket App.
+   - Double-click on `setup.exe` to start the installation process.
+   - Follow the instructions to install Pocket App.
 
-4. **Launch Pocket App**
+5. **Launch Pocket App**
 
-   - After installation, you will find a `_Pocket` shortcut on your desktop.
-   - Double-click the shortcut to open Pocket App.
+   - After installation, you will find a `Pocket app` shortcut on your desktop home screen.
+   - Double-click the shortcut to open Pocket, enjoy!
 
 
