@@ -1,13 +1,13 @@
 # Pocket-App
 
 ## Overview
-Pocket is a useful desktop app for organizing resources for your project or for anything. You can store tabs (URLs) and files together. Filters and sorting options make it easy to organize and find the tab or file you are looking for. 
+Pocket is a useful desktop app for organizing resources for your project or for anything. You can store tabs (URLs) and files together permanently. Filters and sorting options make it easy to organize and find the tab or file you are looking for. 
 
 ## Features
 Stored files and tabs have a title and image display.
 
 Non-image files will be given a default file icon and folders will be given a default folder icon to differentiate them.
-Tabs will display a screenshot of the URL webpage. Some websites such as (reddit.com and chat.openai.com) block this feature.
+Tabs will display a screenshot of the URL webpage. Some websites such as reddit.com block this feature.
 
 Filter options
 - Tabs
@@ -16,6 +16,12 @@ Filter options
 Sorting options
 - Time
 - Alphabetical order
+
+
+## Preview
+If you don't want to download the app or want to understand how it's used, check this preview video.
+
+https://youtu.be/cu2E84BZLVw
 
 ## Usage
 ### Storing tabs
@@ -38,12 +44,15 @@ Add and store files or folders by dragging it anywhere on the app and dropping i
 
 You must click on the Apply button to refresh and displays the newly added tab/file.
 
+#### Suitable Images
+- **Supported image types include:** .png, .jpg, .jpeg, .gif, .bmp
+
 
 ### Deleting
 Press the red button next to a tab or file to remove.
 
 ### Accessing tab or file
-Press on the image of the tab or file. This will open the URL in your default browser or open your file.
+Press on the image of the tab or file. This will open the URL in your default browser or open your file / folder.
 
 ### Filter and sorting options
 Check the checkboxes on the left and click on the Apply button. At least one filter and one sorting option must be selected.
@@ -56,12 +65,16 @@ Not currently supported.
 Images of tabs and files will not be loaded. 
 
 ## Future features
-Sorting options
-- Image size (Does not currently work)
+- New sorting options
+   - Image size (Does not currently work)
 
-Drag and drop multiple files in one go
+- Drag and drop multiple files in one go.
 
-Working offline mode
+- Working offline mode.
+
+- Display automatically refreshs when new tab / file is added.
+
+- Customisable filter / sort options; Add your own tags which can be assigned to each tab / file for even more flexibility. You can now filter by tag as well, and you can also sort by tag order, where you can arrange the tag order yourself in Settings.
 
 ## Technologies used
 
