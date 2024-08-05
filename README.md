@@ -21,7 +21,7 @@ Sorting options
 ## Preview
 If you don't want to download the app or want to understand how it's used, check this preview video.
 
-[![Pocket Preview](https://img.youtube.com/vi/cu2E84BZLVw&ab_channel=NT)](https://www.youtube.com/watch?v=cu2E84BZLVw&ab_channel=NT)
+https://github.com/user-attachments/assets/65672657-92c6-49ee-acba-63dc5f43f49c
 
 https://youtu.be/cu2E84BZLVw
 
