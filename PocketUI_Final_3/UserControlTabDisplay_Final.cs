@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Collections.Generic;
@@ -16,7 +16,6 @@ namespace PocketUI_Final_3
         public event EventHandler LabelClicked;
         public event EventHandler PictureBoxClicked;
 
-        //public string TabTitle { get; set; }
         public string TabLink { get; set; }
         public DateTime TimeInserted { get; set; }
 
@@ -24,29 +23,22 @@ namespace PocketUI_Final_3
         {
             InitializeComponent();
 
-            //deleteButton.Image = Properties.Resources.RedCrossImage;
             deleteButton.BackColor = Color.Transparent;
 
             deleteButton.Click += DeleteButton_Click;
             label_Tab_Name.Click += Label_Tab_Name_Click;
             pictureBox_Tab_Image.Click += PictureBox_Tab_Image_Click;
-            //pictureBox_Tab_Image.Click += PictureBox_Tab_Image_Click;
 
-            ///////////NEW SHITTTTTTTTTT
             // Load the image from resources
             Image image = Properties.Resources.RedCrossImage;
 
-            // Resize the image to fit the button
             Bitmap resizedImage = new Bitmap(deleteButton.Width, deleteButton.Height);
             using (Graphics graphics = Graphics.FromImage(resizedImage))
             {
                 graphics.DrawImage(image, 0, 0, deleteButton.Width, deleteButton.Height);
             }
 
-            // Set the resized image as the button's background image
             deleteButton.BackgroundImage = resizedImage;
-            ///////////NEW SHITTTTTTTTTT
-
         }
 
         public Image PictureBox_Tab_Image
@@ -77,13 +69,16 @@ namespace PocketUI_Final_3
             PictureBoxClicked?.Invoke(this, EventArgs.Empty);
         }
 
-
-        /// ////////////
         private void deleteButton_Click_1(object sender, EventArgs e)
         {
         }
 
         private void label_Tab_Name_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserControlTabDisplay_Final_Load(object sender, EventArgs e)
         {
 
         }
