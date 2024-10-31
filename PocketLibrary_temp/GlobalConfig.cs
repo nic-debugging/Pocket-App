@@ -23,11 +23,10 @@ namespace PocketLibrary_temp
                 .AddJsonFile("appsettings.json")
                 .Build();
 
-            // Initialize the SQL connector directly
             Connection = new SqlConnector();
 
 
-            // NEW SHITTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+            // NEW 
             //string connectionString = configuration.GetConnectionString("DefaultConnection");
 
             //SqlConnector.DeleteTab(connectionString, DateTime.Now);
@@ -35,13 +34,7 @@ namespace PocketLibrary_temp
 
         public static void InitializeConnections()
         {
-            // Read connection string from appsettings.json
             string connectionString = configuration.GetConnectionString("DefaultConnection");
-
-            // Initialize connection using the retrieved connection string
-            // Example: Connection = new SqlConnection(connectionString);
-
-            // You can initialize other connections or settings here if needed
         }
         
         public static string GetConnectionString()
