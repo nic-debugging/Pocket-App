@@ -44,10 +44,9 @@ namespace PocketUI_Final_3
 
 
 
-            // Set properties of PictureBoxControl
             PictureBoxControl.SizeMode = PictureBoxSizeMode.Zoom;
-            PictureBoxControl.Dock = DockStyle.Fill; // Dock to fill UserControl
-            Controls.Add(PictureBoxControl); // Add PictureBoxControl to UserControl
+            PictureBoxControl.Dock = DockStyle.Fill; 
+            Controls.Add(PictureBoxControl); 
         }
 
 
@@ -67,44 +66,33 @@ namespace PocketUI_Final_3
 
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            // Raise the DeleteButtonClicked event when the delete button is clicked
             DeleteButtonClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void Label_File_Name_Click(object sender, EventArgs e)
         {
-            // Raise LabelClicked event when label is clicked
             LabelClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void PictureBox_File_Image_Click(object sender, EventArgs e)
         {
-            // Raise PictureBoxClicked event when picture box is clicked
             PictureBoxClicked?.Invoke(this, EventArgs.Empty);
         }
 
         /*
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            // Raise the DeleteButtonClicked event when the delete button is clicked
             DeleteButtonClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        // Other methods and properties...
-
-        
         private void Label_File_Name_Click(object sender, EventArgs e)
         {
-            // Handle the click event for the label here
-            // You can choose to open the file or perform any other action
             var clickedControl = sender as UserControlFileDisplay;
             //OpenFile(clickedControl.FilePath);
         }
 
         private void PictureBox_File_Image_Click(object sender, EventArgs e)
         {
-            // Handle the click event for the picture box here
-            // You can choose to open the file or perform any other action
             var clickedControl = sender as UserControlFileDisplay;
             //OpenFile(clickedControl.FilePath);
         }
