@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,48 +26,26 @@ namespace PocketUI_Final_3
         {
             InitializeComponent();
 
-
-
-           
-            //deleteButton.Image = Properties.Resources.horsehorse;
-            //deleteButton.BackgroundImageLayout = ImageLayout.Zoom;
-
-
-            
-            ///////////NEW SHITTTTTTTTTT
-            // Load the image from resources
             Image image = Properties.Resources.RedCrossImage;
 
-            // Resize the image to fit the button
+            // Resizing image to fit the button
             Bitmap resizedImage = new Bitmap(deleteButton.Width, deleteButton.Height);
             using (Graphics graphics = Graphics.FromImage(resizedImage))
             {
                 graphics.DrawImage(image, 0, 0, deleteButton.Width, deleteButton.Height);
             }
 
-            // Set the resized image as the button's background image
             deleteButton.BackgroundImage = resizedImage;
-            ///////////NEW SHITTTTTTTTTT
-            
-
-
-
-            //deleteButton.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox_File_Image.SizeMode = PictureBoxSizeMode.Zoom;
-
             deleteButton.BackColor = Color.Transparent;
-
-
 
             deleteButton.Click += DeleteButton_Click;
             label_File_Name.Click += Label_File_Name_Click;
             pictureBox_File_Image.Click += PictureBox_File_Image_Click;
 
-
-            // Set properties of PictureBoxControl
             PictureBoxControl.SizeMode = PictureBoxSizeMode.Zoom;
-            PictureBoxControl.Dock = DockStyle.Fill; // Dock to fill UserControl
-            Controls.Add(PictureBoxControl); // Add PictureBoxControl to UserControl
+            PictureBoxControl.Dock = DockStyle.Fill; 
+            Controls.Add(PictureBoxControl); 
         }
 
         public Image PictureBox_File_Image
@@ -101,6 +79,16 @@ namespace PocketUI_Final_3
         }
 
         private void label_File_Name_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserControlFileDisplay_Final_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox_File_Image_Click_1(object sender, EventArgs e)
         {
 
         }
