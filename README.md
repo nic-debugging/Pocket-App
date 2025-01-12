@@ -85,6 +85,8 @@ C#, MySQL, Windows Forms, Visual Studio, AWS
 
 ## Installation
 
+**NOTE: Due to high costs, the AWS instance that hosts this project is no longer running, so downloading this project will no longer work. If you want to download Pocket, please email me at z5412724@ad.unsw.edu.au. I can reactivate the AWS instance for a time period for you to download and use Pocket**
+
 Follow these steps to download and install Pocket App:
 
 1. **Download Dotnet**
